@@ -12,5 +12,5 @@ server.use(cors())
 server.use(router)
 
 server.listen(9090, () => {
-  console.log('Noteful json-server started at http://localhost:9090')
+  console.log('Noteful json-server started at `https://mysterious-headland-85119.herokuapp.com')
 })
