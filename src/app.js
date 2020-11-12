@@ -36,5 +36,3 @@ app.use(function errorHandler(error, req, res, next) {
 })
 
 module.exports = app
-
-// Write an Express server for the Noteful API with the endpoints /notes and /folders.
