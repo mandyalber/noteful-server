@@ -17,7 +17,7 @@ app.use(cors())
 app.use(helmet())
 
 app.all('/', function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Origin", "https://noteful-app-sooty.vercel.app/");
   res.header("Access-Control-Allow-Headers", "X-Requested-With");
   next()
 });
