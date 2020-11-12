@@ -17,7 +17,7 @@ app.use(cors())
 app.use(helmet())
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://noteful-app-sooty.vercel.app");
+  res.setHeader("Access-Control-Allow-Origin", "https://noteful-app-qw53j4ogg.vercel.app");
   res.setHeader(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, Authorization"
